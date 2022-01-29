@@ -2,8 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum Orientation { Forward, Backward, Left, Right }
+
 public class CharacterController : MonoBehaviour
 {
+    
+    public Orientation controlsOrientation;
 
     public float accelleration = 100;
     public float maxSpeed = 2;
@@ -35,16 +39,32 @@ public class CharacterController : MonoBehaviour
             rb.velocity = new Vector3(XYmovement.x, rb.velocity.y, XYmovement.y);
         }
 
-        if (Input.GetButtonDown("Jump"))
+        if (controlsOrientation == Orientation.Forward)
         {
-            Jump = JumpHeight;
+            movement = new Vector3(-moveHor, Jump, -moveVert);
+        } else if (controlsOrientation == Orientation.Backward)
+        {
+            movement = new Vector3(moveVert, Jump, -moveHor);
+        } else if (controlsOrientation == Orientation.Left)
+        {
+            movement = new Vector3(-moveVert, Jump, moveHor);
+        } else if (controlsOrientation == Orientation.Right)
+        {
+            movement = new Vector3(moveVert, Jump, -moveHor);
         }
 
-        movement = new Vector3(moveVert, Jump, -moveHor);
-        //movement = transform.TransformDirection(movement);
+        //movement = transform.TransformDirection(movement); // <-- Change Force from Global to Local
 
         rb.AddForce(movement * accelleration);
 
         Jump = 0f;
+    }
+
+    private void Update()
+    {
+        if (Input.GetButtonDown("Jump"))
+        {
+            Jump = JumpHeight;
+        }
     }
 }
