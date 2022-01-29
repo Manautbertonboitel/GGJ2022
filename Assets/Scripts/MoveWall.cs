@@ -8,8 +8,12 @@ public class MoveWall : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        FindObjectOfType<AudioManager>().Play("interrupteur");
-        if(WhiteWalls.GetComponent<Wall>().status)
+        if (FindObjectOfType<AudioManager>())
+        {
+            FindObjectOfType<AudioManager>().Play("interrupteur");
+        }
+
+        if (WhiteWalls.GetComponent<Wall>().status)
         {
             LowerWall(WhiteWalls);
             WhiteWalls.GetComponent<Wall>().status = false;
