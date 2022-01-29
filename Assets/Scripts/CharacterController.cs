@@ -5,12 +5,12 @@ using UnityEngine;
 public class CharacterController : MonoBehaviour
 {
 
-    public float Accellaration = 100;
+    public float accelleration = 100;
     public float maxSpeed = 2;
     public float JumpHeight = 3;
 
     public float MouseSpeed = 3;
-    public GameObject Camera; // you need to set this to the camera you want to use
+    //public GameObject Camera; // you need to set this to the camera you want to use
     public float Zoffset = 90;
 
     private float LookAngleX = 0;
@@ -49,7 +49,7 @@ public class CharacterController : MonoBehaviour
         movement = new Vector3(moveVert, Jump, -moveHor);
         movement = transform.TransformDirection(movement);
 
-        rb.AddForce(movement * Accellaration);
+        rb.AddForce(movement * accelleration);
 
 
         //##################### Mouse Controll ##########################
@@ -62,8 +62,8 @@ public class CharacterController : MonoBehaviour
 
         LookAngleY = Mathf.Clamp(LookAngleY, -70f, 89f);
 
-        Camera.transform.localEulerAngles = new Vector3(-LookAngleY, Zoffset, 0f);
-        transform.eulerAngles = new Vector3(0f, LookAngleX, 0f);
+        //Camera.transform.localEulerAngles = new Vector3(-LookAngleY, Zoffset, 0f);
+        //transform.eulerAngles = new Vector3(0f, LookAngleX, 0f);
 
         Jump = 0f;
 
