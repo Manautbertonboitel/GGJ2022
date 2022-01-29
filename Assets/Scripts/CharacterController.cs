@@ -10,11 +10,7 @@ public class CharacterController : MonoBehaviour
     public float JumpHeight = 3;
 
     public float MouseSpeed = 3;
-    //public GameObject Camera; // you need to set this to the camera you want to use
-    public float Zoffset = 90;
 
-    private float LookAngleX = 0;
-    private float LookAngleY = 0;
 
     private Rigidbody rb;
     private Vector3 movement;
@@ -28,8 +24,6 @@ public class CharacterController : MonoBehaviour
 
     void FixedUpdate()
     {
-
-        //###################### Movement ###############################
         float moveVert = Input.GetAxis("Vertical");
         float moveHor = Input.GetAxis("Horizontal");
 
@@ -47,25 +41,10 @@ public class CharacterController : MonoBehaviour
         }
 
         movement = new Vector3(moveVert, Jump, -moveHor);
-        movement = transform.TransformDirection(movement);
+        //movement = transform.TransformDirection(movement);
 
         rb.AddForce(movement * accelleration);
 
-
-        //##################### Mouse Controll ##########################
-        // Taking controller mouse input
-        var Xin = Input.GetAxis("Mouse X");
-        var Yin = Input.GetAxis("Mouse Y");
-
-        LookAngleX += Xin * MouseSpeed;
-        LookAngleY += Yin * MouseSpeed;
-
-        LookAngleY = Mathf.Clamp(LookAngleY, -70f, 89f);
-
-        //Camera.transform.localEulerAngles = new Vector3(-LookAngleY, Zoffset, 0f);
-        //transform.eulerAngles = new Vector3(0f, LookAngleX, 0f);
-
         Jump = 0f;
-
     }
 }
