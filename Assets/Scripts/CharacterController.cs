@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Orientation { Forward, Backward, Left, Right }
+public enum Orientation { Forward, Backward, Left, Right, None }
 
 public class CharacterController : MonoBehaviour
 {
@@ -51,6 +51,9 @@ public class CharacterController : MonoBehaviour
         } else if (controlsOrientation == Orientation.Right)
         {
             movement = new Vector3(moveVert, Jump, -moveHor);
+        } else if (controlsOrientation == Orientation.None)
+        {
+            movement = Vector3.zero;
         }
 
         //movement = transform.TransformDirection(movement); // <-- Change Force from Global to Local
