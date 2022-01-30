@@ -6,6 +6,7 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedScenePath-0:
+<<<<<<< MAINTEMP
       value: 22424703114646760c07020f152d4a5f233e1c253f3b68252320092a
       flags: 0
     RecentlyUsedScenePath-1:
@@ -31,6 +32,9 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedScenePath-8:
       value: 22424703114646680e0b0227036c73342514bbe2222d68252320092a
+=======
+      value: 224247031146466e240a0331036d4a1e1f0301
+>>>>>>> ADD_test
       flags: 0
     RecentlyUsedScenePath-9:
       value: 22424703114646680e0b0227036c73342514bbe2222d6661633c133af6f9
