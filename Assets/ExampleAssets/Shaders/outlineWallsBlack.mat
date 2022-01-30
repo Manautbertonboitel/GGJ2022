@@ -35,8 +35,10 @@ Material:
     - Boolean_3a90082be0234c859596761767349717: 0
     - Boolean_429cbb67db9d4b40acfe683b13d0c4f9: 0
     - IsWhite: 0
+    - Vector1_0bcc72607c1d4336b5bb994284fdf679: 0.75
     - Vector1_bd1d7040db3e454582e83c22717ddcdd: 0
     - Vector1_cd4a4014c8f74c48a2081d77d0da90f0: 0
     - Vector1_cd4a4014c8f74c48a2081d77d0da90f0_1: 0.2
+    - Vector1_cd4a4014c8f74c48a2081d77d0da90f0_2: 1.02
     m_Colors: []
   m_BuildTextureStacks: []
