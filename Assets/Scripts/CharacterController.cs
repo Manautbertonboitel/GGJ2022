@@ -42,16 +42,20 @@ public class CharacterController : MonoBehaviour
         if (controlsOrientation == Orientation.Forward)
         {
             movement = new Vector3(-moveHor, Jump, -moveVert);
-        } else if (controlsOrientation == Orientation.Backward)
+        }
+        else if (controlsOrientation == Orientation.Backward)
         {
-            movement = new Vector3(moveVert, Jump, -moveHor);
-        } else if (controlsOrientation == Orientation.Left)
+            movement = new Vector3(moveHor, Jump, moveVert);
+        }
+        else if (controlsOrientation == Orientation.Left)
         {
             movement = new Vector3(-moveVert, Jump, moveHor);
-        } else if (controlsOrientation == Orientation.Right)
+        }
+        else if (controlsOrientation == Orientation.Right)
         {
             movement = new Vector3(moveVert, Jump, -moveHor);
-        } else if (controlsOrientation == Orientation.None)
+        }
+        else if (controlsOrientation == Orientation.None)
         {
             movement = Vector3.zero;
         }

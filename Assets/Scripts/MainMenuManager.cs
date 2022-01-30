@@ -14,11 +14,18 @@ public class MainMenuManager : MonoBehaviour
 
     public void Play()
     {
+        FindObjectOfType<AudioManager>().Play("button");
         SceneManager.LoadScene(mainScene);
     }
 
     public void Quit()
     {
+        FindObjectOfType<AudioManager>().Play("button");
         Application.Quit();
+    }
+
+    public void PlaySound()
+    {
+        FindObjectOfType<AudioManager>().Play("button");
     }
 }

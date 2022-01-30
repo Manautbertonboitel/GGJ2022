@@ -60,6 +60,15 @@ MonoBehaviour:
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: a5fb57b7009a06f4983d1a06fc332110, type: 2}
+    source: {fileID: 0}
+  - name: button
+    clip: {fileID: 8300000, guid: 71b0e99e55d7d4c4e9ec072bfaa10690, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
     loop: 0
     mixerGroup: {fileID: 24300002, guid: a5fb57b7009a06f4983d1a06fc332110, type: 2}
     source: {fileID: 0}

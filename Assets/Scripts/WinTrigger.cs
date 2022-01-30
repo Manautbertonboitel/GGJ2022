@@ -20,6 +20,7 @@ public class WinTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        FindObjectOfType<AudioManager>().Play("victory");
         GetComponent<MeshCollider>().isTrigger = false;
         winLevel = true;
         StartCoroutine("StopPlayer");
