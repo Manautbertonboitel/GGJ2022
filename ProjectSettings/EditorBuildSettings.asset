@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LudoScene.unity
     guid: ee87a825595219c4bb565f68b0910482
+  - enabled: 1
+    path: Assets/Scenes/LvLudoEnd.unity
+    guid: 8f7194a2b5f974d4e966c08ba82200d8
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640

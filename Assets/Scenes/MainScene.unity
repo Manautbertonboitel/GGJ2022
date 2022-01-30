@@ -2373,30 +2373,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4743142728548111010, guid: 626a950bf6c9dee4ea35f3d78bc88e6a, type: 3}
-      propertyPath: sounds.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4743142728548111010, guid: 626a950bf6c9dee4ea35f3d78bc88e6a, type: 3}
-      propertyPath: sounds.Array.data[3].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 1adf231900859dc499b9c872aa3d83f5, type: 3}
-    - target: {fileID: 4743142728548111010, guid: 626a950bf6c9dee4ea35f3d78bc88e6a, type: 3}
-      propertyPath: sounds.Array.data[3].name
-      value: victory
-      objectReference: {fileID: 0}
-    - target: {fileID: 4743142728548111010, guid: 626a950bf6c9dee4ea35f3d78bc88e6a, type: 3}
-      propertyPath: sounds.Array.data[3].pitch
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4743142728548111010, guid: 626a950bf6c9dee4ea35f3d78bc88e6a, type: 3}
-      propertyPath: sounds.Array.data[3].volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4743142728548111010, guid: 626a950bf6c9dee4ea35f3d78bc88e6a, type: 3}
-      propertyPath: sounds.Array.data[3].mixerGroup
-      value: 
-      objectReference: {fileID: 24300002, guid: a5fb57b7009a06f4983d1a06fc332110, type: 2}
     - target: {fileID: 4743142728548111011, guid: 626a950bf6c9dee4ea35f3d78bc88e6a, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -7907,6 +7883,7 @@ GameObject:
   m_Component:
   - component: {fileID: 991085526}
   - component: {fileID: 991085525}
+  - component: {fileID: 991085527}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -7990,6 +7967,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &991085527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991085524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b0846d5accf92240b53c643dfac3fda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationAmount: 0.03
 --- !u!43 &1013913889
 Mesh:
   m_ObjectHideFlags: 0
