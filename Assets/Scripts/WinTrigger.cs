@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class WinTrigger : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class WinTrigger : MonoBehaviour
     public bool winLevel = false;
 
     public float endValue, duration;
+    public string nextLevel;
 
     private void Awake()
     {
@@ -18,8 +20,10 @@ public class WinTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        GetComponent<MeshCollider>().isTrigger = false;
         winLevel = true;
         StartCoroutine("StopPlayer");
+        StartCoroutine("NextLevel");
     }
 
     private void Update()
@@ -49,5 +53,11 @@ public class WinTrigger : MonoBehaviour
             winImage.color = new Color(winImage.color.r, winImage.color.g, winImage.color.b, newAlpha);
             yield return null;
         }
+    }
+
+    public IEnumerator NextLevel()
+    {
+        yield return new WaitForSeconds(5f);
+        SceneManager.LoadScene(nextLevel);
     }
 }

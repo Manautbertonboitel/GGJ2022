@@ -21255,7 +21255,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-58948
+  m_Name: pb_Mesh-146638
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -24816,6 +24816,10 @@ PrefabInstance:
       propertyPath: winImage
       value: 
       objectReference: {fileID: 645021060}
+    - target: {fileID: 1821567608867444776, guid: 33c950a5c48a9c64fbee72da8d05b114, type: 3}
+      propertyPath: nextLevel
+      value: MainMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 1821567608867444776, guid: 33c950a5c48a9c64fbee72da8d05b114, type: 3}
       propertyPath: winGameCanvas
       value: 
