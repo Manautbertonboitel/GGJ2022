@@ -9577,6 +9577,10 @@ PrefabInstance:
       propertyPath: m_SelectedVertices.Array.data[3]
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 4988809462860756217, guid: 7fe57390d1cb8604ca2a2e1a8f5baf10, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5854745479782243364, guid: 7fe57390d1cb8604ca2a2e1a8f5baf10, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -21766,7 +21770,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-200114
+  m_Name: pb_Mesh-209116
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -25461,7 +25465,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-200198
+  m_Name: pb_Mesh-209200
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -26648,6 +26652,10 @@ PrefabInstance:
     - target: {fileID: 4865564220008470877, guid: 7fe57390d1cb8604ca2a2e1a8f5baf10, type: 3}
       propertyPath: m_SelectedVertices.Array.data[3]
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4988809462860756217, guid: 7fe57390d1cb8604ca2a2e1a8f5baf10, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5854745479782243364, guid: 7fe57390d1cb8604ca2a2e1a8f5baf10, type: 3}
       propertyPath: m_RootOrder
@@ -30079,6 +30087,10 @@ PrefabInstance:
     - target: {fileID: 4865564220008470877, guid: 7fe57390d1cb8604ca2a2e1a8f5baf10, type: 3}
       propertyPath: m_SelectedVertices.Array.data[3]
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4988809462860756217, guid: 7fe57390d1cb8604ca2a2e1a8f5baf10, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5854745479782243364, guid: 7fe57390d1cb8604ca2a2e1a8f5baf10, type: 3}
       propertyPath: m_RootOrder
@@ -46350,6 +46362,10 @@ PrefabInstance:
       propertyPath: m_SelectedVertices.Array.data[3]
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 4988809462860756217, guid: 7fe57390d1cb8604ca2a2e1a8f5baf10, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5854745479782243364, guid: 7fe57390d1cb8604ca2a2e1a8f5baf10, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -46360,11 +46376,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5854745479782243364, guid: 7fe57390d1cb8604ca2a2e1a8f5baf10, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10
+      value: 7.94
       objectReference: {fileID: 0}
     - target: {fileID: 5854745479782243364, guid: 7fe57390d1cb8604ca2a2e1a8f5baf10, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -23
+      value: -16.48
       objectReference: {fileID: 0}
     - target: {fileID: 5854745479782243364, guid: 7fe57390d1cb8604ca2a2e1a8f5baf10, type: 3}
       propertyPath: m_LocalRotation.w
