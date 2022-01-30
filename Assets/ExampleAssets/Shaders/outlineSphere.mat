@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: outlineSphere
+  m_Shader: {fileID: -6465566751694194690, guid: a6c6d97d631084844a068c594786e69c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Boolean_3a90082be0234c859596761767349717: 1
+    - Boolean_429cbb67db9d4b40acfe683b13d0c4f9: 0
+    - IsWhite: 1
+    - Vector1_bd1d7040db3e454582e83c22717ddcdd: 0
+    - Vector1_cd4a4014c8f74c48a2081d77d0da90f0: 1
+    - Vector1_cd4a4014c8f74c48a2081d77d0da90f0_1: 2
+    m_Colors: []
+  m_BuildTextureStacks: []
