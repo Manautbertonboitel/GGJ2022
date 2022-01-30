@@ -9,11 +9,13 @@ public class Wall : MonoBehaviour
     public Vector3 upPosition;
     public Vector3 downPosition;
 
+    public float heightTarget = 1f;
+
     public bool moveUp;
 
     private void Start()
     {
-        upPosition = new Vector3(transform.position.x, transform.position.y + 1, transform.position.z);
+        upPosition = new Vector3(transform.position.x, transform.position.y + heightTarget, transform.position.z);
         downPosition = transform.position;
     }
 
