@@ -33,16 +33,20 @@
                 "key": "lightmapping.autoUnwrapLightmapUV",
                 "value": "{\"m_Value\":true}"
 <<<<<<< main
+<<<<<<< main
             },
             {
                 "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "mesh.newShapesSnapToGrid",
                 "value": "{\"m_Value\":true}"
+=======
+>>>>>>> add_mystère
             },
             {
                 "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "editor.autoRecalculateCollisions",
                 "value": "{\"m_Value\":false}"
+<<<<<<< main
             },
             {
                 "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
@@ -135,6 +139,8 @@
                 "value": "{\"m_Value\":0.5}"
 =======
 >>>>>>> add_light
+=======
+>>>>>>> add_mystère
             }
         ]
     }
